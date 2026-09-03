@@ -1,0 +1,1143 @@
+{
+  "schemaVersion": "1.0.0",
+  "compilerVersion": "0.1.0",
+  "createdAt": "2026-07-07T08:52:47.753Z",
+  "metadata": {
+    "sourceImage": "F:\\AiAgentWorkplace\\UI_Compiler_Agent\\项目管理系统ui20260702.png",
+    "imageWidth": 1536,
+    "imageHeight": 1024,
+    "modelUsed": "qwen3-vl-plus",
+    "durationMs": 288707
+  },
+  "layout": {
+    "width": 1536,
+    "height": 1024,
+    "sections": [
+      {
+        "id": "root",
+        "parentId": null,
+        "type": "root",
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1536,
+          "height": 1024
+        },
+        "label": "Root Container",
+        "attributes": {
+          "flexDirection": "row"
+        },
+        "children": [
+          "s-sidebar",
+          "s-main"
+        ]
+      },
+      {
+        "id": "s-sidebar",
+        "parentId": "root",
+        "type": "sidebar",
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "width": 160,
+          "height": 1024
+        },
+        "label": "Left Navigation Sidebar",
+        "attributes": {
+          "flexDirection": "column",
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        "children": [
+          "s-sidebar-header",
+          "s-sidebar-nav"
+        ]
+      },
+      {
+        "id": "s-sidebar-header",
+        "parentId": "s-sidebar",
+        "type": "header",
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "width": 160,
+          "height": 64
+        },
+        "label": "Sidebar Header with Logo",
+        "children": []
+      },
+      {
+        "id": "s-sidebar-nav",
+        "parentId": "s-sidebar",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 0,
+          "y": 64,
+          "width": 160,
+          "height": 580
+        },
+        "label": "Sidebar Navigation Menu",
+        "attributes": {
+          "flexDirection": "column",
+          "padding": {
+            "top": 16,
+            "right": 16,
+            "bottom": 16,
+            "left": 16
+          },
+          "gap": 16
+        },
+        "children": [
+          "s-nav-dashboard",
+          "s-nav-project-list",
+          "s-nav-map",
+          "s-nav-system",
+          "s-nav-user",
+          "s-nav-role",
+          "s-nav-permission",
+          "s-nav-dictionary",
+          "s-nav-logs"
+        ]
+      },
+      {
+        "id": "s-nav-dashboard",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 96,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Dashboard Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-project-list",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 156,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Project List Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-map",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 216,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Project Map Distribution Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-system",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 276,
+          "width": 136,
+          "height": 48
+        },
+        "label": "System Management Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-user",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 336,
+          "width": 136,
+          "height": 48
+        },
+        "label": "User Management Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-role",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 396,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Role Management Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-permission",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 456,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Permission Management Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-dictionary",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 516,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Dictionary Management Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-nav-logs",
+        "parentId": "s-sidebar-nav",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 12,
+          "y": 576,
+          "width": 136,
+          "height": 48
+        },
+        "label": "Operation Logs Navigation Item",
+        "children": []
+      },
+      {
+        "id": "s-main",
+        "parentId": "root",
+        "type": "main",
+        "boundingBox": {
+          "x": 160,
+          "y": 0,
+          "width": 1376,
+          "height": 1024
+        },
+        "label": "Main Content Area",
+        "attributes": {
+          "flexDirection": "column"
+        },
+        "children": [
+          "s-top-bar",
+          "s-content"
+        ]
+      },
+      {
+        "id": "s-top-bar",
+        "parentId": "s-main",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 160,
+          "y": 0,
+          "width": 1376,
+          "height": 64
+        },
+        "label": "Top Navigation Bar",
+        "attributes": {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "padding": {
+            "top": 0,
+            "right": 24,
+            "bottom": 0,
+            "left": 24
+          }
+        },
+        "children": [
+          "s-breadcrumb",
+          "s-search",
+          "s-user-actions"
+        ]
+      },
+      {
+        "id": "s-breadcrumb",
+        "parentId": "s-top-bar",
+        "type": "navigation",
+        "boundingBox": {
+          "x": 184,
+          "y": 0,
+          "width": 276,
+          "height": 64
+        },
+        "label": "Breadcrumb Navigation",
+        "children": []
+      },
+      {
+        "id": "s-search",
+        "parentId": "s-top-bar",
+        "type": "form",
+        "boundingBox": {
+          "x": 596,
+          "y": 0,
+          "width": 400,
+          "height": 64
+        },
+        "label": "Search Bar",
+        "children": []
+      },
+      {
+        "id": "s-user-actions",
+        "parentId": "s-top-bar",
+        "type": "container",
+        "boundingBox": {
+          "x": 772,
+          "y": 0,
+          "width": 340,
+          "height": 64
+        },
+        "label": "User Actions Icons",
+        "attributes": {
+          "flexDirection": "row",
+          "alignItems": "center",
+          "gap": 24
+        },
+        "children": [
+          "s-notification",
+          "s-message",
+          "s-help",
+          "s-settings",
+          "s-user-profile"
+        ]
+      },
+      {
+        "id": "s-notification",
+        "parentId": "s-user-actions",
+        "type": "container",
+        "boundingBox": {
+          "x": 772,
+          "y": 16,
+          "width": 24,
+          "height": 32
+        },
+        "label": "Notification Bell Icon",
+        "children": []
+      },
+      {
+        "id": "s-message",
+        "parentId": "s-user-actions",
+        "type": "container",
+        "boundingBox": {
+          "x": 812,
+          "y": 16,
+          "width": 24,
+          "height": 32
+        },
+        "label": "Message Icon",
+        "children": []
+      },
+      {
+        "id": "s-help",
+        "parentId": "s-user-actions",
+        "type": "container",
+        "boundingBox": {
+          "x": 852,
+          "y": 16,
+          "width": 24,
+          "height": 32
+        },
+        "label": "Help Icon",
+        "children": []
+      },
+      {
+        "id": "s-settings",
+        "parentId": "s-user-actions",
+        "type": "container",
+        "boundingBox": {
+          "x": 892,
+          "y": 16,
+          "width": 24,
+          "height": 32
+        },
+        "label": "Settings Icon",
+        "children": []
+      },
+      {
+        "id": "s-user-profile",
+        "parentId": "s-user-actions",
+        "type": "container",
+        "boundingBox": {
+          "x": 916,
+          "y": 12,
+          "width": 100,
+          "height": 40
+        },
+        "label": "User Profile Dropdown",
+        "children": []
+      },
+      {
+        "id": "s-content",
+        "parentId": "s-main",
+        "type": "container",
+        "boundingBox": {
+          "x": 160,
+          "y": 64,
+          "width": 1376,
+          "height": 960
+        },
+        "label": "Dashboard Content Area",
+        "attributes": {
+          "flexDirection": "column",
+          "padding": {
+            "top": 24,
+            "right": 24,
+            "bottom": 24,
+            "left": 24
+          }
+        },
+        "children": [
+          "s-welcome",
+          "s-metrics-row",
+          "s-middle-section",
+          "s-bottom-section"
+        ]
+      },
+      {
+        "id": "s-welcome",
+        "parentId": "s-content",
+        "type": "header",
+        "boundingBox": {
+          "x": 172,
+          "y": 88,
+          "width": 1352,
+          "height": 64
+        },
+        "label": "Welcome Header",
+        "children": []
+      },
+      {
+        "id": "s-metrics-row",
+        "parentId": "s-content",
+        "type": "row",
+        "boundingBox": {
+          "x": 172,
+          "y": 164,
+          "width": 1352,
+          "height": 376
+        },
+        "label": "Metrics Cards Row",
+        "attributes": {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "gap": 24
+        },
+        "children": [
+          "s-metric-total",
+          "s-metric-in-progress",
+          "s-metric-completed",
+          "s-metric-high-risk",
+          "s-metric-contract-value"
+        ]
+      },
+      {
+        "id": "s-metric-total",
+        "parentId": "s-metrics-row",
+        "type": "card",
+        "boundingBox": {
+          "x": 172,
+          "y": 164,
+          "width": 328,
+          "height": 168
+        },
+        "label": "Project Total Card",
+        "children": []
+      },
+      {
+        "id": "s-metric-in-progress",
+        "parentId": "s-metrics-row",
+        "type": "card",
+        "boundingBox": {
+          "x": 524,
+          "y": 164,
+          "width": 328,
+          "height": 168
+        },
+        "label": "In Progress Projects Card",
+        "children": []
+      },
+      {
+        "id": "s-metric-completed",
+        "parentId": "s-metrics-row",
+        "type": "card",
+        "boundingBox": {
+          "x": 876,
+          "y": 164,
+          "width": 328,
+          "height": 168
+        },
+        "label": "Completed Projects Card",
+        "children": []
+      },
+      {
+        "id": "s-metric-high-risk",
+        "parentId": "s-metrics-row",
+        "type": "card",
+        "boundingBox": {
+          "x": 172,
+          "y": 356,
+          "width": 328,
+          "height": 168
+        },
+        "label": "High Risk Projects Card",
+        "children": []
+      },
+      {
+        "id": "s-metric-contract-value",
+        "parentId": "s-metrics-row",
+        "type": "card",
+        "boundingBox": {
+          "x": 524,
+          "y": 356,
+          "width": 328,
+          "height": 168
+        },
+        "label": "Contract Amount Card",
+        "children": []
+      },
+      {
+        "id": "s-middle-section",
+        "parentId": "s-content",
+        "type": "row",
+        "boundingBox": {
+          "x": 172,
+          "y": 408,
+          "width": 1352,
+          "height": 400
+        },
+        "label": "Middle Section with Three Columns",
+        "attributes": {
+          "flexDirection": "row",
+          "gap": 24
+        },
+        "children": [
+          "s-priority-tasks",
+          "s-risk-alerts",
+          "s-map-distribution"
+        ]
+      },
+      {
+        "id": "s-priority-tasks",
+        "parentId": "s-middle-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 172,
+          "y": 408,
+          "width": 420,
+          "height": 400
+        },
+        "label": "Recent Priority Tasks Table",
+        "children": []
+      },
+      {
+        "id": "s-risk-alerts",
+        "parentId": "s-middle-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 616,
+          "y": 408,
+          "width": 420,
+          "height": 400
+        },
+        "label": "Highest Risk Alerts List",
+        "children": []
+      },
+      {
+        "id": "s-map-distribution",
+        "parentId": "s-middle-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 1060,
+          "y": 408,
+          "width": 420,
+          "height": 400
+        },
+        "label": "Project Map Distribution",
+        "children": []
+      },
+      {
+        "id": "s-bottom-section",
+        "parentId": "s-content",
+        "type": "row",
+        "boundingBox": {
+          "x": 172,
+          "y": 832,
+          "width": 1352,
+          "height": 240
+        },
+        "label": "Bottom Statistics Row",
+        "attributes": {
+          "flexDirection": "row",
+          "gap": 24
+        },
+        "children": [
+          "s-status-chart",
+          "s-type-distribution",
+          "s-progress-trend"
+        ]
+      },
+      {
+        "id": "s-status-chart",
+        "parentId": "s-bottom-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 172,
+          "y": 832,
+          "width": 420,
+          "height": 240
+        },
+        "label": "Project Status Statistics Chart",
+        "children": []
+      },
+      {
+        "id": "s-type-distribution",
+        "parentId": "s-bottom-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 616,
+          "y": 832,
+          "width": 420,
+          "height": 240
+        },
+        "label": "Project Type Distribution Bar Chart",
+        "children": []
+      },
+      {
+        "id": "s-progress-trend",
+        "parentId": "s-bottom-section",
+        "type": "section",
+        "boundingBox": {
+          "x": 1060,
+          "y": 832,
+          "width": 420,
+          "height": 240
+        },
+        "label": "Project Progress Trend Line Chart",
+        "children": []
+      }
+    ]
+  },
+  "tokens": {
+    "spacing": [
+      {
+        "name": "space-xs",
+        "value": 4,
+        "role": "xs"
+      },
+      {
+        "name": "space-sm",
+        "value": 8,
+        "role": "sm"
+      },
+      {
+        "name": "space-md",
+        "value": 16,
+        "role": "md"
+      },
+      {
+        "name": "space-lg",
+        "value": 24,
+        "role": "lg"
+      },
+      {
+        "name": "space-xl",
+        "value": 32,
+        "role": "xl"
+      }
+    ],
+    "colors": [
+      {
+        "name": "primary",
+        "value": "#4F46E5",
+        "role": "primary"
+      },
+      {
+        "name": "primary-hover",
+        "value": "#4338CA",
+        "role": "primary-hover"
+      },
+      {
+        "name": "secondary",
+        "value": "#06B6D4",
+        "role": "secondary"
+      },
+      {
+        "name": "accent",
+        "value": "#F59E0B",
+        "role": "accent"
+      },
+      {
+        "name": "background",
+        "value": "#F8FCFF",
+        "role": "background"
+      },
+      {
+        "name": "surface",
+        "value": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "text",
+        "value": "#1F2937",
+        "role": "text"
+      },
+      {
+        "name": "text-secondary",
+        "value": "#6B7280",
+        "role": "text-secondary"
+      },
+      {
+        "name": "border",
+        "value": "#E5E7EB",
+        "role": "border"
+      },
+      {
+        "name": "error",
+        "value": "#EF4444",
+        "role": "error"
+      },
+      {
+        "name": "success",
+        "value": "#10B981",
+        "role": "success"
+      },
+      {
+        "name": "warning",
+        "value": "#F59E0B",
+        "role": "warning"
+      },
+      {
+        "name": "info",
+        "value": "#3B82F6",
+        "role": "info"
+      },
+      {
+        "name": "high-risk",
+        "value": "#EF4444",
+        "role": "error"
+      },
+      {
+        "name": "medium-risk",
+        "value": "#F59E0B",
+        "role": "warning"
+      },
+      {
+        "name": "low-risk",
+        "value": "#10B981",
+        "role": "success"
+      },
+      {
+        "name": "urgent",
+        "value": "#EF4444",
+        "role": "error"
+      },
+      {
+        "name": "high",
+        "value": "#F59E0B",
+        "role": "warning"
+      },
+      {
+        "name": "medium",
+        "value": "#3B82F6",
+        "role": "info"
+      },
+      {
+        "name": "low",
+        "value": "#10B981",
+        "role": "success"
+      },
+      {
+        "name": "chart-blue",
+        "value": "#3B82F6",
+        "role": "info"
+      },
+      {
+        "name": "chart-green",
+        "value": "#10B981",
+        "role": "success"
+      },
+      {
+        "name": "chart-orange",
+        "value": "#F59E0B",
+        "role": "warning"
+      },
+      {
+        "name": "chart-red",
+        "value": "#EF4444",
+        "role": "error"
+      },
+      {
+        "name": "chart-purple",
+        "value": "#8B5CF6",
+        "role": "primary"
+      },
+      {
+        "name": "chart-gray",
+        "value": "#9CA3AF",
+        "role": "text-secondary"
+      }
+    ],
+    "typography": [
+      {
+        "name": "h1",
+        "fontFamily": "Inter",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "lineHeight": 1.25,
+        "role": "h1"
+      },
+      {
+        "name": "h2",
+        "fontFamily": "Inter",
+        "fontSize": 20,
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "role": "h2"
+      },
+      {
+        "name": "h3",
+        "fontFamily": "Inter",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.4,
+        "role": "h3"
+      },
+      {
+        "name": "body",
+        "fontFamily": "Inter",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "role": "body"
+      },
+      {
+        "name": "body-large",
+        "fontFamily": "Inter",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "role": "body-large"
+      },
+      {
+        "name": "body-small",
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "role": "body-small"
+      },
+      {
+        "name": "caption",
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "role": "caption"
+      },
+      {
+        "name": "button",
+        "fontFamily": "Inter",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "role": "button"
+      },
+      {
+        "name": "label",
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "role": "label"
+      },
+      {
+        "name": "metric-number",
+        "fontFamily": "Inter",
+        "fontSize": 28,
+        "fontWeight": 700,
+        "lineHeight": 1.2,
+        "role": "h2"
+      },
+      {
+        "name": "metric-label",
+        "fontFamily": "Inter",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "role": "caption"
+      }
+    ],
+    "radius": [
+      {
+        "name": "radius-none",
+        "value": 0,
+        "role": "none"
+      },
+      {
+        "name": "radius-sm",
+        "value": 4,
+        "role": "sm"
+      },
+      {
+        "name": "radius-md",
+        "value": 8,
+        "role": "md"
+      },
+      {
+        "name": "radius-lg",
+        "value": 12,
+        "role": "lg"
+      },
+      {
+        "name": "radius-xl",
+        "value": 16,
+        "role": "xl"
+      }
+    ],
+    "shadow": [
+      {
+        "name": "shadow-sm",
+        "value": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 4,
+          "spread": 0,
+          "color": "rgba(0, 0, 0, 0.05)"
+        },
+        "role": "sm"
+      },
+      {
+        "name": "shadow-md",
+        "value": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 8,
+          "spread": 0,
+          "color": "rgba(0, 0, 0, 0.08)"
+        },
+        "role": "md"
+      }
+    ]
+  },
+  "components": [],
+  "constraints": [
+    {
+      "id": "cstr-spacing-001",
+      "type": "spacing-consistency",
+      "description": "Vertical navigation items in sidebar use consistent vertical spacing between items",
+      "rule": "All direct children of s-sidebar-nav must have gap: space-md (16px)",
+      "scope": "s-sidebar-nav > *",
+      "severity": "error",
+      "references": {
+        "sections": [
+          "s-sidebar-nav"
+        ],
+        "tokens": [
+          "space-md"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-spacing-002",
+      "type": "spacing-consistency",
+      "description": "Metric cards and section rows use consistent horizontal spacing between columns",
+      "rule": "s-metrics-row, s-middle-section, and s-bottom-section must use gap: space-lg (24px)",
+      "scope": "s-metrics-row, s-middle-section, s-bottom-section",
+      "severity": "error",
+      "references": {
+        "sections": [
+          "s-metrics-row",
+          "s-middle-section",
+          "s-bottom-section"
+        ],
+        "tokens": [
+          "space-lg"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-layout-alignment-001",
+      "type": "layout-alignment",
+      "description": "Top bar actions are right-aligned with consistent horizontal spacing",
+      "rule": "s-user-actions must be flex-end aligned with gap: space-lg (24px) between items",
+      "scope": "s-top-bar > s-user-actions",
+      "severity": "error",
+      "references": {
+        "sections": [
+          "s-top-bar",
+          "s-user-actions"
+        ],
+        "tokens": [
+          "space-lg"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-radius-consistency-001",
+      "type": "radius-consistency",
+      "description": "All metric cards use the same border radius for visual consistency",
+      "rule": "All metric cards (s-metric-*) must use border-radius: radius-md (8px)",
+      "scope": "s-metric-total, s-metric-in-progress, s-metric-completed, s-metric-high-risk, s-metric-contract-value",
+      "severity": "warning",
+      "references": {
+        "sections": [
+          "s-metric-total",
+          "s-metric-in-progress",
+          "s-metric-completed",
+          "s-metric-high-risk",
+          "s-metric-contract-value"
+        ],
+        "tokens": [
+          "radius-md"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-color-usage-001",
+      "type": "color-usage",
+      "description": "Risk-related metrics and alerts use standardized risk color mapping",
+      "rule": "High-risk elements use high-risk (#EF4444), medium-risk use medium-risk (#F59E0B), low-risk use low-risk (#10B981)",
+      "scope": "s-metric-high-risk, s-risk-alerts",
+      "severity": "error",
+      "references": {
+        "sections": [
+          "s-metric-high-risk",
+          "s-risk-alerts"
+        ],
+        "tokens": [
+          "high-risk",
+          "medium-risk",
+          "low-risk"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-typography-scale-001",
+      "type": "typography-scale",
+      "description": "Metric numbers and labels follow a consistent typographic hierarchy",
+      "rule": "Metric number text uses metric-number (28px/700), metric label uses metric-label (14px/500)",
+      "scope": "s-metric-*",
+      "severity": "error",
+      "references": {
+        "sections": [
+          "s-metric-total",
+          "s-metric-in-progress",
+          "s-metric-completed",
+          "s-metric-high-risk",
+          "s-metric-contract-value"
+        ],
+        "tokens": [
+          "metric-number",
+          "metric-label"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-color-usage-002",
+      "type": "color-usage",
+      "description": "Primary action elements (e.g., navigation, buttons) use primary color palette consistently",
+      "rule": "Navigation headers and primary interactive elements use primary (#4F46E5) and primary-hover (#4338CA)",
+      "scope": "s-sidebar-header, s-nav-dashboard, s-user-profile",
+      "severity": "warning",
+      "references": {
+        "sections": [
+          "s-sidebar-header",
+          "s-nav-dashboard",
+          "s-user-profile"
+        ],
+        "tokens": [
+          "primary",
+          "primary-hover"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-spacing-003",
+      "type": "spacing-consistency",
+      "description": "User action icons in top bar use consistent sizing and internal padding",
+      "rule": "s-notification, s-message, s-help, s-settings must be 24x32 with consistent internal spacing (likely space-xs or space-sm)",
+      "scope": "s-user-actions > [s-notification, s-message, s-help, s-settings]",
+      "severity": "warning",
+      "references": {
+        "sections": [
+          "s-notification",
+          "s-message",
+          "s-help",
+          "s-settings"
+        ],
+        "tokens": [
+          "space-xs",
+          "space-sm"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-layout-alignment-002",
+      "type": "layout-alignment",
+      "description": "Main content sections are left-aligned with consistent left/right margins",
+      "rule": "s-welcome, s-metrics-row, s-middle-section, s-bottom-section must have left/right padding of space-lg (24px) relative to s-content width",
+      "scope": "s-content > *",
+      "severity": "warning",
+      "references": {
+        "sections": [
+          "s-welcome",
+          "s-metrics-row",
+          "s-middle-section",
+          "s-bottom-section"
+        ],
+        "tokens": [
+          "space-lg"
+        ],
+        "components": []
+      }
+    },
+    {
+      "id": "cstr-shadow-consistency-001",
+      "type": "shadow-consistency",
+      "description": "Interactive cards and surfaces use consistent shadow depth",
+      "rule": "Metric cards and main content sections that function as cards should use shadow-md (blur(8)) when elevated",
+      "scope": "s-metric-*, s-priority-tasks, s-risk-alerts, s-map-distribution",
+      "severity": "info",
+      "references": {
+        "sections": [
+          "s-metric-total",
+          "s-metric-in-progress",
+          "s-metric-completed",
+          "s-metric-high-risk",
+          "s-metric-contract-value",
+          "s-priority-tasks",
+          "s-risk-alerts",
+          "s-map-distribution"
+        ],
+        "tokens": [
+          "shadow-md"
+        ],
+        "components": []
+      }
+    }
+  ]
+}
